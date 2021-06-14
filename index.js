@@ -1,2 +1,6 @@
 #!/usr/bin/env node
-console.log('aries cli');
+const { Command } = require('commander');
+const program = new Command();
+program.version(require('./package.json').version);
+
+program.parse(process.argv);
