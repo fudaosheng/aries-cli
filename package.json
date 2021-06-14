@@ -2,12 +2,11 @@
   "name": "aries_cli",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.ts",
   "bin": {
-    "aries": "index.js"
+    "aries": "lib/index.ts"
   },
   "scripts": {
-    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +16,10 @@
   "author": "fudaosheng",
   "license": "ISC",
   "dependencies": {
-    "commander": "^7.2.0"
+    "commander": "^7.2.0",
+    "typescript": "^4.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^15.9.0"
   }
 }
