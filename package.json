@@ -16,6 +16,7 @@
   "author": "fudaosheng",
   "license": "ISC",
   "dependencies": {
+    "colors": "^1.4.0",
     "commander": "^7.2.0",
     "download-git-repo": "^3.0.2",
     "ejs": "^3.1.6"
