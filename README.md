@@ -1,7 +1,7 @@
 # aries cli
 一个提高前端开发者工作效率的cli
 
-***安装:*** `npm install -g aries`
+***安装:*** `npm install -g aries-cli`
 
 ## commands
 | 命令  |  说明 |例子|
