@@ -14,7 +14,12 @@
     "type": "git",
     "url": "https://github.com/daoshengfu/aries_cli"
   },
-  "keywords": ["cli", "command", "react", "vue"],
+  "keywords": [
+    "cli",
+    "command",
+    "react",
+    "vue"
+  ],
   "author": "fudaosheng",
   "license": "MIT",
   "dependencies": {
