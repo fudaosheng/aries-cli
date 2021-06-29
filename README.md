@@ -10,6 +10,8 @@
 
 |add <componentName> [type] [destination]|创建一个组件到指定的目录,type支持：fs(react函数式组件)、class(react class组件)、vue， destination：要安装组件的指定目录|`aries add HelloWord -d src/components`|
 
+|addPage <pageName> [type]|创建一个页面到指定的目录(如不指定-d值，默认src/pages),type如上， destination 参考下面options说明|`aries addPage Home`，`aries addPage About -d src/views`|
+
 ## options
 | 选项  | 说明  |
 |---|---|
