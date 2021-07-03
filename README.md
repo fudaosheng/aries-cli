@@ -6,9 +6,9 @@
 ## commands
 | 命令  |  说明 |例子|
 |---|---|---|
-|  create <projectName> [framework] |  创建一个项目到当前工作目录，支持的框架：react、vue，默认为react。[vue模版](https://gitee.com/fudaosheng/vue_project_template)、[react模版](https://gitee.com/fudaosheng/react_project_template) |`aries create my_demo`|
-|add <componentName> [type]|创建一个组件到指定的目录（默认为`src/components`）,type支持：fs(react函数式组件)、class(react class组件)、vue， destination 参考下面options说明|`aries add HelloWord` `aries add HelloWord class -d src/common`|
-|addPage <pageName> [type]|创建一个页面到指定的目录(默认为src/pages),type如上， destination 参考下面options说明|`aries addPage Home`，`aries addPage About -d src/views`|
+|aries create <projectName> [framework]|  创建一个项目到当前工作目录，支持的框架：react、vue，默认为react。[vue模版](https://gitee.com/fudaosheng/vue_project_template)、[react模版](https://gitee.com/fudaosheng/react_project_template) |`aries create my_demo`|
+|aries add <componentName> [type]|创建一个组件到指定的目录（默认为`src/components`）,type支持：fs(react函数式组件)、class(react class组件)、vue， destination 参考下面options说明|+ `aries add HelloWord` + `aries add HelloWord class -d src/common`|
+|aries addPage <pageName> [type]|创建一个页面到指定的目录(默认为src/pages),如目录不存在会创建目录,type如上，destination 参考下面options说明|+ `aries addPage Home`，+ `aries addPage About -d src/views`|
 
 ## options
 | 选项  | 说明  |
