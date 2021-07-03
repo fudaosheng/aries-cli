@@ -1,6 +1,6 @@
 {
   "name": "aries-cli",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "a automatically create project tool",
   "main": "lib/index.js",
   "bin": {
